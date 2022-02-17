@@ -1,0 +1,129 @@
+h3{
+  margin: 0;
+}
+
+body{
+  background-color: #f7f7f7;
+  font-family: Arial;
+  display: grid;
+  gap: 60px;
+  justify-items: center;
+  font-family: Arial;
+}
+
+/* Cabeçalho e menu */
+
+.header{
+  justify-items: center;
+  display: grid;
+  gap: 60px;
+  margin-top: 60px;
+}
+
+.menu{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.menu a{
+  background-color: white;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  text-align: left;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  border: 2px solid transparent;
+}
+
+.menu a:hover{
+  border: 2px solid red;
+}
+
+img{
+  max-width: 100%;
+}
+
+.menu{
+  gap: 20px;
+  justify-content: center;
+}
+
+
+/* Quadro com quatro caixas */
+
+/* Caixa 1 */
+
+.principal{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  max-width: 1000px;
+}
+
+.introducao{
+  background-color: white;
+  text-align: right;
+  display: grid;
+  place-content: center;
+  justify-items: end;
+  gap: 20px;
+  padding: 40px;
+
+}
+
+.introducao h1{
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.introducao p{
+  font-size: 20px;
+  line-height: 26px; 
+}
+
+.botao{
+
+  background-color: red;
+  border-radius: 4px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 16px 32px;
+}
+
+.botao:hover{
+  background-color: #990000;
+}
+
+/* Caixa 3 */
+
+.vantagens{
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 64px;
+  font-weight: 700;
+  }
+
+.vantagens h2{
+  padding: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  background-image: url("https://kotchopires.github.io/imagens/onda.svg");
+}
+
+.detalhes{
+  background-color: white;
+  display: grid;
+  padding: 20px;
+}
+
+
+
+
+/* rodapé */
+.rodape{
+  margin-bottom: 60px;
+
+}
